@@ -1,3 +1,23 @@
 git add .
 git commit -m "شرح التعديل"
-git push
+
+----- عمل إصدار جديد -----
+git tag -a vX.Y.Z -m "الإصدار .. - إضافه / تطوير"
+
+├── X (Major): تغييرات ضخمة (كسر في التوافق).
+├── Y (Minor): إضافة ميزة جديدة.
+└── Z (Patch): تصليحات أو تحسينات صغيرة.
+
+----- الرفع لإصدار معين -----
+git push origin v1.0.0
+
+
+
+
+
+----- الرفع أول مره -----
+git init
+git add .
+git commit -m "First commit - CodeyDo initialized"
+git remote add origin https://github.com/AbdellrahmanAhmed/codeyDo.git
+git push -u origin master
