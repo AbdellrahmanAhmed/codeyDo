@@ -9,7 +9,9 @@ git tag -a vX.Y.Z -m "الإصدار .. - إضافه / تطوير"
 └── Z (Patch): تصليحات أو تحسينات صغيرة.
 
 ----- الرفع لإصدار معين -----
-git push origin v1.0.0
+git tag -a v2.0.0 -m "اضافه شاشه تطبيق على ادارة الحاله بإستخدام بروفيدر"
+git push origin v2.0.0
+
 
 ----- الرفع أول مره -----
 git init
@@ -26,5 +28,5 @@ git branch
 
 ----- تحديث المشروع -----
 git add .
-git commit -m "تحديث على المشروع"
+git commit -m "State management using Provider"
 git push origin master  # أو اسم الفرع بتاعك
