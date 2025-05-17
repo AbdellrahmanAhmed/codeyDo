@@ -11,13 +11,20 @@ git tag -a vX.Y.Z -m "الإصدار .. - إضافه / تطوير"
 ----- الرفع لإصدار معين -----
 git push origin v1.0.0
 
-
-
-
-
 ----- الرفع أول مره -----
 git init
 git add .
 git commit -m "First commit - CodeyDo initialized"
 git remote add origin https://github.com/AbdellrahmanAhmed/codeyDo.git
 git push -u origin master
+
+----- التأكد من وجود تحديثات أو لا -----
+git status
+
+----- التأكد من الفرع -----
+git branch
+
+----- تحديث المشروع -----
+git add .
+git commit -m "تحديث على المشروع"
+git push origin master  # أو اسم الفرع بتاعك
