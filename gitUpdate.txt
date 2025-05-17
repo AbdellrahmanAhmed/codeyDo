@@ -30,3 +30,8 @@ git branch
 git add .
 git commit -m "State management using Provider"
 git push origin master  # أو اسم الفرع بتاعك
+
+----- رفع كامل للمشروع مره اخرى -----
+git add .
+git commit -m "State management using Provider"
+git push origin master --force
